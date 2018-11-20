@@ -2,13 +2,25 @@ h1 {
   font-size: 100px;
 }
 
-#social-links img {
-}
-
 footer {
   background-color: grey;
 }
 
-#packages h2 {
-  text-align: center;
+main {
+  background-color: plum;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#social-links img {
+
+display: inline;
+}
+
+.jumbotron {
+  margin-bottom: 0;
 }
