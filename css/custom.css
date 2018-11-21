@@ -68,7 +68,13 @@ footer a:hover {
 }
 
 footer button {
-  background-color: plum;
+  background-color: white;
+}
+
+.card .btn {
+  background-color: purple;
+  color: white;
+  border-color: white;
 }
 /* @media screen and (min-width: 768px) {
   .footer-text{text-align: left;}
