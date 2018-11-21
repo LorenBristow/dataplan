@@ -1,14 +1,16 @@
 h1 {
-  font-size: 100px;
+  font-size: 50px;
   color: white;
 }
 
-footer, nav {
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+footer {
   background-color: #393E44;
     color: white;
 }
-
-
 
 main {
   background-color: plum;
@@ -37,6 +39,15 @@ header {
       border: none;
 }
 
+@media screen and (min-width:768px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  @media screen and (min-width:560px) {
+    h1 {
+      font-size: 70px;
+    }
 /* @media screen and (min-width: 768px) {
   .footer-text{text-align: left;}
 }*/
