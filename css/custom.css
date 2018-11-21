@@ -23,3 +23,17 @@ img {
 .jumbotron {
   margin-bottom: 0;
 }
+
+.card-body {
+    background-color: plum;
+  }
+
+.card {
+      border: none;
+}
+
+
+
+/* @media screen and (min-width: 768px) {
+  .footer-text{text-align: left;}
+}*/
