@@ -1,10 +1,14 @@
 h1 {
   font-size: 100px;
+  color: white;
 }
 
-footer {
-  background-color: grey;
+footer, nav {
+  background-color: #393E44;
+    color: white;
 }
+
+
 
 main {
   background-color: plum;
@@ -20,8 +24,9 @@ img {
   display: inline;
 }
 
-.jumbotron {
+header {
   margin-bottom: 0;
+  background-color: #393E44;
 }
 
 .card-body {
@@ -31,8 +36,6 @@ img {
 .card {
       border: none;
 }
-
-
 
 /* @media screen and (min-width: 768px) {
   .footer-text{text-align: left;}
