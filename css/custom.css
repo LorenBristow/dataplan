@@ -59,9 +59,17 @@ header {
   padding-top: 2%;
 }
 
+footer a {
+  color: white;
+}
 
+footer a:hover {
+  color: plum;
+}
 
-
+footer button {
+  background-color: plum;
+}
 /* @media screen and (min-width: 768px) {
   .footer-text{text-align: left;}
 }*/
