@@ -1,6 +1,7 @@
 h1 {
   font-size: 3em;
   color: white;
+  text-align: center;
 }
 
 @media screen and (min-width:560px) {
@@ -53,6 +54,9 @@ header {
       border: none;
 }
 
+#footer-things {
+  padding-top: 2%;
+}
 
 
 
