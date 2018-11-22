@@ -82,18 +82,34 @@ footer button {
   font-size: 1.5em;
 }
 
-#packages h2 {
+#homepackages h2 {
 padding-bottom: 3%;
 font-size: 3em;
 color: purple;
 }
 
-#packages h3 {
+#packages h2 {
+padding: 3% 0;
+font-size: 3em;
+color: purple;
+}
+
+#package-description  {
+font-size: 2em;
+}
+
+#homepackages h3 {
 color: purple;
 font-weight: bold;
 }
 
-#packages p {
+#homepackages p {
 font-size: 1.25em;
 padding: 2% 0:
+}
+
+#calculator .active {
+  background-color: purple;
+  color: white;
+  border-color: white;
 }
