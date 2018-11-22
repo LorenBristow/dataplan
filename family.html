@@ -143,7 +143,7 @@
             <div class="row">
               <p>price and frequency: </p>
               <p>£ <span id="you-pay"></span><span id="frequency"></span></p>
-              <button id="buy"> Buy Now </button>
+              <button id="buy" data-toggle="modal" data-target="#myModal"> Buy Now </button>
             </div>
             <!--total and pay buttons-->
           </div>
@@ -152,7 +152,23 @@
         <!--package row-->
       </section>
       <!--packages section-->
-
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Added to basket</h4>
+            </div>
+            <div class="modal-body">
+              <p>Thanks for shopping with us.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer id="footer-things">
