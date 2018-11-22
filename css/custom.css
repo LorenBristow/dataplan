@@ -103,6 +103,12 @@ color: purple;
 font-weight: bold;
 }
 
+#start-price {
+  color: purple;
+font-weight: bold;
+font-size: 2em;
+}
+
 #homepackages p {
 font-size: 1.25em;
 padding: 2% 0:
