@@ -48,3 +48,40 @@ function calculator() {
 
   console.log('calc ' + total);
 }
+
+//
+$(".chatgb--price").click(function(){
+  $(".chatgb--price").removeClass("active");
+  $(this).addClass("active");
+
+});
+
+$(".chatmin--price").click(function(){
+  $(".chatmin--price").removeClass("active");
+  $(this).addClass("active");
+
+});
+
+$(".chatgb--price").click(function(){
+  $(".chatmin--price").removeClass("active");
+$("#chat_price").text("0");});
+
+$(".frequency").click(function(){
+  $(".frequency").removeClass("active");
+  $(this).addClass("active");
+});
+
+$(".btn").click(function(){
+  $(".frequency").removeClass("active");
+$("#chat_price").text("0");
+});
+
+//frequency
+
+
+
+$("#buy").click(function(){
+  $(".frequency").removeClass("active");
+$("#chat_price").text(total);
+});
+//prevent deletion of price to pay on screen when 'buy' is clicked.

@@ -35,3 +35,29 @@ function calculator() {
 
   console.log('calc ' + total);
 }
+//end of calculator
+$(".wolf--price").click(function(){
+  $(".wolf--price").removeClass("active");
+  $(this).addClass("active");
+
+});
+
+
+$(".frequency").click(function(){
+  $(".frequency").removeClass("active");
+  $(this).addClass("active");
+
+
+});
+$(".btn").click(function(){
+  $(".frequency").removeClass("active");
+$("#pay-total").text();
+});
+//frequency
+
+
+$("#buy").click(function(){
+  $(".frequency").removeClass("active");
+$("#pay-total").text();
+});
+//prevent deletion of price to pay on screen when 'buy' is clicked.

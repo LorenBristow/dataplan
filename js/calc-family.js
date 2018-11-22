@@ -199,3 +199,73 @@ function calculator() {
   }
   $("#you-pay").text(total);
 }
+//end of calculator
+$(".sim").click(function(){
+  $(".sim").removeClass("active");
+  $(this).addClass("active");
+
+});
+$(".sim1").click(function(){
+  $(".sim1").removeClass("active");
+  $(this).addClass("active");
+  $(".sim").click(function(){
+    $(".sim1").removeClass("active");
+  $("#you-pay").text("0");
+  });
+
+});
+$(".sim2").click(function(){
+  $(".sim2").removeClass("active");
+  $(this).addClass("active");
+
+});
+$(".sim").click(function(){
+  $(".sim2").removeClass("active");
+$("#you-pay").text("0");});
+
+$(".sim3").click(function(){
+  $(".sim3").removeClass("active");
+  $(this).addClass("active");
+
+});
+$(".sim").click(function(){
+  $(".sim3").removeClass("active");
+$("#you-pay").text("0");});
+
+$(".sim4").click(function(){
+  $(".sim4").removeClass("active");
+  $(this).addClass("active");
+
+});
+$(".sim").click(function(){
+  $(".sim4").removeClass("active");
+$("#you-pay").text("0");});
+
+$(".sim5").click(function(){
+  $(".sim5").removeClass("active");
+  $(this).addClass("active");
+
+
+});
+$(".sim").click(function(){
+  $(".sim5").removeClass("active");
+$("#you-pay").text("0");});
+
+$(".frq").click(function(){
+  $(".frq").removeClass("active");
+  $(this).addClass("active");
+});
+
+$(".btn").click(function(){
+  $(".frq").removeClass("active");
+$("#you-pay").text("0");
+});
+//frequency
+
+
+
+$("#buy").click(function(){
+  $(".frq").removeClass("active");
+$("#you-pay").text(total);
+});
+//prevent deletion of price to pay on screen when 'buy' is clicked.
