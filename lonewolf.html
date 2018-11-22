@@ -73,33 +73,33 @@
           </div>
           <!--card lonewolf-->
           <div class="container col-md-6  " id="calculator">
-            <div class="row calculator-row align-items-center d-flex justify-content-center border">
+            <div class="row calculator-row-text align-items-center d-flex justify-content-center border">
               <p>Choose the number of GB you would like:</p>
             </div>
             <!--GB row text-->
             <div class="row calculator-row align-items-center d-flex justify-content-center border">
-              <button class="wolf--price" data-gb="3gb" data-price="15.00" > 3GB </button>
-              <button class="wolf--price" data-gb="6gb" data-price="17.00" > 6GB </button>
-              <button class="wolf--price" data-gb="15gb" data-price="22.00"> 15GB </button>
-              <button class="wolf--price" data-gb="30gb" data-price="27.00"> 30GB </button>
+              <button class="wolf--price btn-lg" data-gb="3gb" data-price="15.00" > 3GB </button>
+              <button class="wolf--price btn-lg" data-gb="6gb" data-price="17.00" > 6GB </button>
+              <button class="wolf--price btn-lg" data-gb="15gb" data-price="22.00"> 15GB </button>
+              <button class="wolf--price btn-lg" data-gb="30gb" data-price="27.00"> 30GB </button>
             </div>
             <!--GB buttons-->
-            <div class="row calculator-row align-items-center d-flex justify-content-center border">
+            <div class="row calculator-row-text align-items-center d-flex justify-content-center border">
               <p>Choose your payment frequency:</p>
             </div>
             <!--frequency row text-->
             <div class="row calculator-row align-items-center d-flex justify-content-center border">
-              <button class="frequency" data-freq="per month"> per month </button>
-              <button class="frequency" data-freq="per annum"> per annum </button>
+              <button class="frequency btn-lg" data-freq="per month"> per month </button>
+              <button class="frequency btn-lg" data-freq="per annum"> per annum </button>
             </div>
             <!--frequency buttons-->
             <div class="row calculator-row align-items-center d-flex justify-content-center border">
-              <div class="col-md-8 align-items-center d-flex justify-content-center border">
-              <p>Total: </p>
+              <div class="calculator-row-text col-md-8 align-items-center d-flex justify-content-center border">
+              <p id="pay-total">Total: </p>
               <p> <span id="wolf_price"></span><span id="frequency"></span></p>
             </div><!--closing total col-->
             <div class="col-md-4 align-items-center d-flex justify-content-center border">
-              <button id="buy" data-toggle="modal" data-target="#myModal"> Buy Now </button>
+              <button class="btn-lg" id="buy" data-toggle="modal" data-target="#myModal"> Buy Now </button>
         </div><!--close buy button col-->
             </div>
             <!--total and pay buttons-->

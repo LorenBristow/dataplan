@@ -128,3 +128,25 @@ padding: 2% 0:
   height: 100px;
   max-height:100%;
 }
+
+.calculator-row-text {
+  height: 60px;
+  max-height:100%;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+#pay-total {
+  font-size: 1.52em;
+}
+
+#submit-contact {
+  background-color: purple;
+  color: white;
+  border-color: white;
+}
+
+label {
+  font-size: 1.25em;
+  font-weight: bold;
+}
