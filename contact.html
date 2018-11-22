@@ -15,15 +15,15 @@
     <header>
       <div class="container container-fluid text-center">
         <div class="row">
-          <div class="col-sm-2 d-flex align-items-center">
+          <div class="col-sm-2 d-flex align-items-center border">
             <a href="index.html"> <img class="img-fluid" src="images/logosmall.png" alt="speech bubble logo." /></a>
           </div>
           <!--logo col-->
-          <div class="col-sm-5 d-flex align-items-center text-center">
+          <div class="col-sm-5 d-flex align-items-center border text-center">
             <h1> CHAT.com </h1>
           </div>
           <!--H1 col-->
-          <div class="col-sm-5 d-flex align-items-center">
+          <div class="col-sm-5 border d-flex align-items-center">
             <nav class="container navbar navbar-expand-lg navbar-dark">
               <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,58 +52,61 @@
 
 
     <main>
-
+      <section id="mission" class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>We work hard everyday to make sure you get the best deals on the market. CHAT.com is your partner in superior connectivity to your world. </p>
+            <hr></hr>
+          </div>
+          <!--p col-->
+        </div>
+        <!--p row-->
+      </section>
+      <!--mission section-->
       <section id="packages" class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2>The Lonewolf Package</h2>
-            <p>Data only sim card</p>
+            <h2>Checkout our cool awesome amazing packages!</h2>
           </div>
           <!--h2 col-->
         </div>
         <!--h2 row-->
         <div class="row">
-          <div class="container col-md-6">
+          <div class="container col-md-4">
             <div class="card mx-auto">
               <img class="card-img-top img-fluid" src="images/lonewolf.jpg" alt="a cartoon man with his phone alone.">
-            </div>
-            <div class="card-body text-center">
-              <p>Starting from £15.00</p>
+              <div class="card-body text-center">
+                <h3 class="card-title">Lonewolf Package</h3>
+                <p class="card-text">Big data needs? The Lonewolf Package is for you.</p>
+                <a href="#" class="btn btn-lg">Click to see deal</a>
+              </div>
             </div>
           </div>
           <!--card lonewolf-->
-          <div class="container col-md-6">
-            <div class="row">
-              <p>Choose the number of GB you would like:</p>
+
+          <div class="container col-md-4">
+            <div class="card mx-auto">
+              <img class="card-img-top img-fluid" src="images/chatterbox.jpg" alt="a cartoon lady on her phone chatting.">
+              <div class="card-body text-center">
+                <h3 class="card-title">Chatterbox Package</h3>
+                <p class="card-text">Love a good chinwag? The Chatterbox Package will meet your needs.</p>
+                <a href="#" class="btn btn-lg">Click to see deal</a>
+              </div>
             </div>
-            <!--GB row text-->
-              <div class="row">
-                <button class="wolf--price" data-gb="3gb" data-price="15.00"> 3GB </button>
-                <button class="wolf--price" data-gb="6gb" data-price="17.00"> 6GB </button>
-                <button class="wolf--price" data-gb="15gb" data-price="22.00"> 15GB </button>
-                <button class="wolf--price" data-gb="30gb" data-price="27.00"> 30GB </button>
-              </div>
-              <!--GB buttons-->
-
-            <div class="row">
-              <p>Choose your payment frequency:</p>   </div><!--frequency row text-->
-
-              <div class="row">
-                <button class="frequency" data-freq="per month"> per month </button>
-                <button class="frequency" data-freq="per annum"> per annum </button>
-              </div>
-              <!--frequency buttons-->
-
-            <div class="row">
-              <p>price and frequency: </p>
-              <p>£ <span id="wolf_price"></span><span id="frequency"></span></p>
-
-                <button id="buy"> Buy Now </button>
-              </div>
-              <!--total and pay buttons-->
-
           </div>
-          <!--calculator-->
+
+          <!--card chatterbox-->
+          <div class="container col-md-4">
+            <div class="card mx-auto">
+              <img class="card-img-top img-fluid" src="images/family.jpg" alt="a cartoon family and their on a hillside.">
+              <div class="card-body text-center">
+                <h3 class="card-title">Family Package</h3>
+                <p class="card-text">Got lots of close connections? The Family Package will keep everybody close. </p>
+                <a href="#" class="btn btn-lg">Click to see deal</a>
+              </div>
+            </div>
+          </div>
+          <!--card family-->
         </div>
         <!--package row-->
       </section>
@@ -114,27 +117,27 @@
     <footer id="footer-things">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3 text-center footer-text">
+          <div class="col-sm-3 text-center footer-text border">
             <p>All Rights Reserved</p>
             <p><a href="privacy.html">Privacy</a></p>
             <p><a href="termsofuse.html">Terms of Use</a></p>
             <p>©2018CHAT.com</p>
           </div>
           <!--col1-->
-          <div class="col-sm-3 text-center footer-text">
+          <div class="col-sm-3 text-center footer-text border">
             <p><a href="sitemap.html">Sitemap</a></p>
             <p><a href="lonewolf.html">Lonewolf Package</a></p>
             <p><a href="chatterbox.html">Chatterbox Package</a></p>
             <p><a href="family.html">Family Package</a></p>
           </div>
           <!--col2-->
-          <div id="social-links" class="col-sm-3 d-flex align-items-center text-center">
+          <div id="social-links" class="col-sm-3 d-flex align-items-center text-center border">
             <a href="https://twitter.com/bt_uk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter.jpg" alt="twitter logo link."></a>
             <a href="https://en-gb.facebook.com/BTUK/"><img src="images/facebook.jpg" alt="facebook logo link."></a>
             <a href="https://www.pinterest.co.uk/"><img src="images/pinterest.jpg" alt="pinterest logo link."></a>
           </div>
           <!--col3-->
-          <div class="col-sm-3 d-flex align-items-center">
+          <div class="col-sm-3 d-flex align-items-center border">
             <button type="button" class="btn btn-lg">Contact Us</button>
           </div>
           <!--col4-->
@@ -147,7 +150,7 @@
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="js/calc-lonewolf.js"></script>
+    <script src="js/engine.js"></script>
   </body>
 
 
