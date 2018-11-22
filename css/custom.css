@@ -82,7 +82,7 @@ footer button {
   font-size: 1.5em;
 }
 
-#homepackages h2 {
+#home-packages h2 {
 padding-bottom: 3%;
 font-size: 3em;
 color: purple;
@@ -98,7 +98,7 @@ color: purple;
 font-size: 2em;
 }
 
-#homepackages h3 {
+#home-packages h3 {
 color: purple;
 font-weight: bold;
 }
@@ -109,7 +109,7 @@ font-weight: bold;
 font-size: 2em;
 }
 
-#homepackages p {
+#home-packages p {
 font-size: 1.25em;
 padding: 2% 0:
 }
@@ -118,4 +118,13 @@ padding: 2% 0:
   background-color: purple;
   color: white;
   border-color: white;
+}
+
+#main-row {
+  margin-top: 2%;
+}
+
+.calculator-row {
+  height: 100px;
+  max-height:100%;
 }

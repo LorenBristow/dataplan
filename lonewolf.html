@@ -15,16 +15,16 @@
     <header>
       <div class="container container-fluid text-center">
         <div class="row">
-          <div class="col-sm-2 d-flex align-items-center">
+          <div class="col-sm-2 d-flex align-items-center justify-content-center">
             <a href="index.html"> <img class="img-fluid" src="images/logosmall.png" alt="speech bubble logo." /></a>
           </div>
           <!--logo col-->
-          <div class="col-sm-5 d-flex align-items-center text-center">
+          <div class="col-sm-5 d-flex align-items-center justify-content-center">
             <h1> CHAT.com </h1>
           </div>
           <!--H1 col-->
           <div class="col-sm-5 d-flex align-items-center">
-            <nav class="container navbar navbar-expand-lg navbar-dark">
+            <nav class="container navbar navbar-expand-lg navbar-dark d-flex justify-content-center">
               <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@
           <!--h2 col-->
         </div>
         <!--h2 row-->
-        <div class="row">
+        <div class="row" id="main-row">
           <div class="container col-md-6">
             <div class="card mx-auto">
               <img class="card-img-top img-fluid" src="images/lonewolf.jpg" alt="a cartoon man with his phone alone.">
@@ -72,28 +72,28 @@
             </div>
           </div>
           <!--card lonewolf-->
-          <div class="container col-md-6 " id="calculator">
-            <div class="row">
+          <div class="container col-md-6  " id="calculator">
+            <div class="row calculator-row align-items-center d-flex justify-content-center border">
               <p>Choose the number of GB you would like:</p>
             </div>
             <!--GB row text-->
-            <div class="row">
+            <div class="row calculator-row align-items-center d-flex justify-content-center border">
               <button class="wolf--price" data-gb="3gb" data-price="15.00" > 3GB </button>
               <button class="wolf--price" data-gb="6gb" data-price="17.00" > 6GB </button>
               <button class="wolf--price" data-gb="15gb" data-price="22.00"> 15GB </button>
               <button class="wolf--price" data-gb="30gb" data-price="27.00"> 30GB </button>
             </div>
             <!--GB buttons-->
-            <div class="row">
+            <div class="row calculator-row align-items-center d-flex justify-content-center border">
               <p>Choose your payment frequency:</p>
             </div>
             <!--frequency row text-->
-            <div class="row">
+            <div class="row calculator-row align-items-center d-flex justify-content-center border">
               <button class="frequency" data-freq="per month"> per month </button>
               <button class="frequency" data-freq="per annum"> per annum </button>
             </div>
             <!--frequency buttons-->
-            <div class="row">
+            <div class="row calculator-row align-items-center d-flex justify-content-center border">
               <p>price and frequency: </p>
               <p>£ <span id="wolf_price"></span><span id="frequency"></span></p>
               <button id="buy" data-toggle="modal" data-target="#myModal"> Buy Now </button>
@@ -141,13 +141,13 @@
             <p><a href="family.html">Family Package</a></p>
           </div>
           <!--col2-->
-          <div id="social-links" class="col-sm-3 d-flex align-items-center text-center">
+          <div id="social-links" class="col-sm-3 d-flex align-items-center justify-content-center">
             <a href="https://twitter.com/bt_uk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter.jpg" alt="twitter logo link."></a>
             <a href="https://en-gb.facebook.com/BTUK/"><img src="images/facebook.jpg" alt="facebook logo link."></a>
             <a href="https://www.pinterest.co.uk/"><img src="images/pinterest.jpg" alt="pinterest logo link."></a>
           </div>
           <!--col3-->
-          <div class="col-sm-3 d-flex align-items-center">
+          <div class="col-sm-3 d-flex align-items-center justify-content-center">
               <a href="contact.html"><button type="button" class="btn btn-lg">Contact Us</button></a>
           </div>
           <!--col4-->
