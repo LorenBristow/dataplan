@@ -81,7 +81,7 @@ $("#chat_price").text("0");
 
 
 $("#buy").click(function(){
-  $(".frequency").removeClass("active");
+//  $(".frequency").removeClass("active");
 $("#chat_price").text(total);
 });
 //prevent deletion of price to pay on screen when 'buy' is clicked.

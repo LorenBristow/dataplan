@@ -51,13 +51,13 @@ $(".frequency").click(function(){
 });
 $(".btn").click(function(){
   $(".frequency").removeClass("active");
-$("#pay-total").text();
+$("#wolf_price").text();
 });
 //frequency
 
 
 $("#buy").click(function(){
-  $(".frequency").removeClass("active");
-$("#pay-total").text();
+//  $(".frequency").removeClass("active");
+$("#wolf_price").text();
 });
 //prevent deletion of price to pay on screen when 'buy' is clicked.

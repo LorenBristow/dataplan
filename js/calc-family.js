@@ -210,7 +210,7 @@ $(".sim1").click(function(){
   $(this).addClass("active");
   $(".sim").click(function(){
     $(".sim1").removeClass("active");
-  $("#you-pay").text("0");
+  $("#you-pay").text();
   });
 
 });
@@ -221,7 +221,7 @@ $(".sim2").click(function(){
 });
 $(".sim").click(function(){
   $(".sim2").removeClass("active");
-$("#you-pay").text("0");});
+$("#you-pay").text();});
 
 $(".sim3").click(function(){
   $(".sim3").removeClass("active");
@@ -230,7 +230,7 @@ $(".sim3").click(function(){
 });
 $(".sim").click(function(){
   $(".sim3").removeClass("active");
-$("#you-pay").text("0");});
+$("#you-pay").text();});
 
 $(".sim4").click(function(){
   $(".sim4").removeClass("active");
@@ -239,7 +239,7 @@ $(".sim4").click(function(){
 });
 $(".sim").click(function(){
   $(".sim4").removeClass("active");
-$("#you-pay").text("0");});
+$("#you-pay").text();});
 
 $(".sim5").click(function(){
   $(".sim5").removeClass("active");
@@ -249,7 +249,7 @@ $(".sim5").click(function(){
 });
 $(".sim").click(function(){
   $(".sim5").removeClass("active");
-$("#you-pay").text("0");});
+$("#you-pay").text();});
 
 $(".frq").click(function(){
   $(".frq").removeClass("active");
@@ -257,15 +257,15 @@ $(".frq").click(function(){
 });
 
 $(".btn").click(function(){
-  $(".frq").removeClass("active");
-$("#you-pay").text("0");
+$(".frq").removeClass("active");
+$("#you-pay").text();
 });
 //frequency
 
 
 
 $("#buy").click(function(){
-  $(".frq").removeClass("active");
+//  $(".frq").removeClass("active");
 $("#you-pay").text(total);
 });
 //prevent deletion of price to pay on screen when 'buy' is clicked.
