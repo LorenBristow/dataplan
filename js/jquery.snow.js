@@ -1,28 +1,7 @@
-/**
- * A simple jQuery snow plugin.
- *
- * Available under GPL licence
- *
- * In order to compensate for not having a ratio mechanism built-in you can just add a proportionate number of copies to the elements array, see example.
- *
- * @version 2.0 (11/12/17)
- * @author Vlad-Andrei Erculescu
- * @requires jQuery
- *
- * @params minSize - min size of element (default: 20)
- * @params maxSize - max size of element (default: 50)
- * @param fallTimeMultiplier - flake fall time multiplier, the larger the number the longer *all* flakes will take to "land" (default: 20)
- * @param fallTimeDifference - flake fall time difference, the larger the number the bigger the difference in fall time between flakes (default: 10000)
- * @oaram direction - numeric value, 0 to 360, describing direction the icons move (270 -> top to bottom, 0 -> right to left)
- * @params spawnInterval - interval (miliseconds) between new element spawns (default: 500)
- * @params target - jQuery element to apply snow effect on (should work on any block element) (default: body)
- * @params elements - elements to use in generating snow effect
- *
- * @return interval - returns the interval so that the snow effect can be "paused"
- *
- * Example usage in the README file
- */
+
 (function ($) {
+  if($(window).width() > 900) {
+
     $.fn.snow = function (userSettings) {
         var defaults = {
                 minSize: 20,
@@ -204,4 +183,5 @@
             }
         }()
     };
+  }
 })(jQuery);
